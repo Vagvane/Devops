@@ -1,0 +1,48 @@
+There are majorly 5 Operating Systems used globally to communicate with the hardware to exacute instructions
+  1. Windows - used for personal laptops or desktops exclusively.
+  2. Linux - this distributions are used in serer side because of its efficency and security.
+  3. IOS - thi is used in mac laptops or desktops and iphones specifically.
+  4. Andriod - this is used exclusively in mobile phones as it is very compatable with mobile applications.
+  5. RTOS - used in electrical devices like those of dialy use where the logic is feeded into a chip.
+
+Now to communicate to the OS and give instrustions various tech languages are used for the business logic 
+  1. Java
+  2. C, C++
+  3. C#
+  4. Python
+  5. R
+
+And the user to use that application various UI technologies are used to make the display user friendly
+  1. HTML
+  2. CSS
+  3. Javascript
+  4. Php
+  5.Angular JS
+  
+These applications store the data given by the user using databases
+  1. Hadoop
+  2. Oracle
+  3. DB2
+  4. Apache
+  5. mysql
+
+These databases are stored in the cloud so that it is safe
+What is Cloud? - it is a virtual storage of data in various servers across the globe.
+Cloud provider - AWS, Azure, GCP, IBM Cloud, Oracle Cloud etcc..
+
+1. To upload the developed code to an online server making use of github
+  Create an account in Github - Vagvane
+  Create a repository - Devops (will give an url save it)
+  Create a token from settings and save it
+    1.1 Now download git for locally developed code to upload to server
+        Create a folder on your local device and open using git bash
+        Run command - git init
+                      git config--global user.email"tvagvane@gmail.com
+                      git config--global user.name"Vagvane"
+    1.2 Create a file in the folder - index.html
+        Run command - git add.
+                      git commit -m "1st commit"
+                      git branch -M main
+                      git push -u https://saved_token@github.com/Vagvane/Devops main (after doing this once only git push can be used)
+                      git pull (if changed directly on github then to get to local folder use this)
+2. To upload the code from github to an application server making use of Jenkins 
