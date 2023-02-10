@@ -1,23 +1,23 @@
-There are majorly 5 Operating Systems used globally to communicate with the hardware to exacute instructions
+There are majorly 5 Operating Systems used globally to communicate with the hardware to execute instructions
   1. Windows - used for personal laptops or desktops exclusively.
   2. Linux - this distributions are used in serer side because of its efficency and security.
   3. IOS - thi is used in mac laptops or desktops and iphones specifically.
   4. Andriod - this is used exclusively in mobile phones as it is very compatable with mobile applications.
   5. RTOS - used in electrical devices like those of dialy use where the logic is feeded into a chip.
 
-Now to communicate to the OS and give instrustions various tech languages are used for the business logic 
+Now to communicate to the OS so hat it can give instrustions, various tech languages are used for the business logic 
   1. Java
   2. C, C++
   3. C#
   4. Python
   5. R
 
-And the user to use that application various UI technologies are used to make the display user friendly
+So that the user can communicate with the application various UI technologies are used to make the display user friendly
   1. HTML
   2. CSS
   3. Javascript
   4. Php
-  5.Angular JS
+  5. Angular JS
   
 These applications store the data given by the user using databases
   1. Hadoop
@@ -26,9 +26,11 @@ These applications store the data given by the user using databases
   4. Apache
   5. mysql
 
-These databases are stored in the cloud so that it is safe
-What is Cloud? - it is a virtual storage of data in various servers across the globe.
+These databases are stored in the cloud so that it is safe and can be accessed anywhere.
+What is Cloud? - it is a virtual storage of data in various application servers across the globe.
 Cloud provider - AWS, Azure, GCP, IBM Cloud, Oracle Cloud etcc..
+Servers use linux distributions. Some basic bash commands are -
+  mkdir, cd, touch, cat, vim, head, tail, pwd and to connect to servers using ssh commands.
 
 1. To upload the developed code to an online server making use of github
   Create an account in Github - Vagvane
@@ -45,4 +47,9 @@ Cloud provider - AWS, Azure, GCP, IBM Cloud, Oracle Cloud etcc..
                       git branch -M main
                       git push -u https://saved_token@github.com/Vagvane/Devops main (after doing this once only git push can be used)
                       git pull (if changed directly on github then to get to local folder use this)
-2. To upload the code from github to an application server making use of Jenkins 
+2. To upload the code from github to an application server Apache Tomacat making use of Jenkins
+  Download Apache Tomcat
+  Purchase any cloud service like AWS
+  Create a server on it and connect with jenkins???? idk this part 
+  It is used to continually create and test software projects, making it easier for developers and DevOps engineers to integrate changes to the project and for consumers to get a new build.
+  
