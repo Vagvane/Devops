@@ -48,8 +48,9 @@ Servers use linux distributions. Some basic bash commands are -
                       git push -u https://saved_token@github.com/Vagvane/Devops main (after doing this once only git push can be used)
                       git pull (if changed directly on github then to get to local folder use this)
 2. To upload the code from github to an application server Apache Tomacat making use of Jenkins
-  Download Apache Tomcat
-  Purchase any cloud service like AWS
-  Create a server on it and connect with jenkins???? idk this part 
-  It is used to continually create and test software projects, making it easier for developers and DevOps engineers to integrate changes to the project and for consumers to get a new build.
-  
+    2.1 Download Apache Tomcat
+        To check its downloaded open localhost:8080 url.
+        Go to Apache Tomcat software and under webapps create a trial folder and an index.html file
+        Go to localhost:8080/trial url and it will load the index file by default
+    2.2 Download Jenkins
+        
